@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+}
+a:hover { text-decoration: none }
+.gray-bg{background-color: #FAFAFA;}
+.service-bg-1{background-image: url(../images/apples.jpg)}
+.service-bg-2{background-image: url(../images/bananas.jpg)}
+.service-bg-3{background-image: url(../images/clementines.jpg)}
+.service-bg-4{background-image: url(../images/pears-2.jpg)}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title h2 {
+    font-size: 25px;
+}
+.section-title {
+    margin-bottom: 70px;
+}
+.single-service-item {
+    background-color: #ffffff;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+.service-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 225px;
+    background-repeat: no-repeat;
+}
+.service-content {
+    margin-top: 40px;
+}
+.service-content h3 {
+    font-size: 15px;
+}
+body {
+    color: #a2a2a2;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+.service-more-btn {
+    border-radius: 50px;
+    color: #2ecc71;
+    display: inline-block;
+    padding: 10px 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+     margin-bottom: 20px;
+    padding-left: 0;
+}
+.service-more-btn:hover {
+    background-color: #2ecc71;
+    box-shadow: 0 0 20px #c4efd1;
+    color: #fff;
+    padding: 10px 53px 10px 16px;
+}
+i.fa.fa-long-arrow-right {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    position: absolute;
+}
+.single-service-item:hover{
+   box-shadow: 0 0 20px #C4EFD1;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+
+}
+.service-content {
+    padding-left: 20px;
+}
+
+.service-content {
+    padding-left: 20px;
+}
+.service-more-btn{
+position: relative;
+}
+`a.service-more-btn {
+    font-size: 18px;
+}
+
